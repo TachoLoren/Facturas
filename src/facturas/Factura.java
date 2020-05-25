@@ -18,12 +18,12 @@ public  class Factura implements Ifactura{
 
 	@Override
 	public float getTotal() {
-		return 0;
+		return base*tipoIva;
 	}
 
 	@Override
 	public float getCantidadIva() {
-		return 0;
+		return tipoIva;
 	}
 
 	
