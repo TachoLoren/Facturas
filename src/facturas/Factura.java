@@ -26,9 +26,6 @@ public  class Factura implements Ifactura{
 		return tipoIva;
 	}
 
-	
-	
-	
 
 	
 }
